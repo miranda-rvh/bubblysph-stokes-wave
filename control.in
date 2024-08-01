@@ -1,0 +1,33 @@
+!! Control file for bubblysph
+
+!! Reynolds number
+1.0d3
+  
+!! Mach number
+0.01d0
+
+!! Acoustic Mach number (for bubble pressure signals)
+3.0d-3
+
+!! Density ratio
+1.0d0
+
+!! Froude number (for 3D initial conditions, Fr=1/sqrt(2pi)
+1.0d0         !0.39894228d0
+
+!! Gravity vector (two dimensional unit vector)
+0.0d0 0.0d0
+
+!! Weber number
+1.976d4
+
+!! Initial and final time for simulation
+0.0d0 20.0d0
+
+!! Output interval
+0.1d0
+
+!! Advective, viscous and acoustic time step coefficients
+0.3d0 0.3d0 40.0d0
+
+
